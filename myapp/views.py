@@ -17,6 +17,9 @@ def home(request):
     return render(request, 'home.html')
 
 
+def project(request):
+    return render(request, 'project.html')
+
 
 
 def login_view(request):
