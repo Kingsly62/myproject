@@ -78,13 +78,13 @@ def gallery(request):
 
     categories = Category.objects.filter(user=user)
     context = {'categories': categories, 'photos': photos}
-    return render(request, 'photos/gallery.html', context)
+    return render(request, 'gallerly.html', context)
 
 
 
 def viewPhoto(request, pk):
     photo = Photo.objects.get(id=pk)
-    return render(request, 'photos/photo.html', {'photo': photo})
+    return render(request, 'photo.html', {'photo': photo})
 
 
 
@@ -113,7 +113,7 @@ def addPhoto(request):
                 image=image,
             )
 
-        return redirect('gallery')
+        return redirect('gallerly')
 
     context = {'categories': categories}
-    return render(request, 'photos/add.html', context)
+    return render(request, 'add.html', context)
