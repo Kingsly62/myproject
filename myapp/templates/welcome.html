@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>
+    Welcome {{user.username}} ,account created successfully
+    <br />
+    Your Email is {{user.email}}!!!
+  </h2>
+
+  <h4><a href="{% url 'project'%}">Continue </a></h4>
+</div>
+
+<style>
+  .container {
+    background: url("https://img.freepik.com/free-photo/white-children-room-interior-mockup_43614-272.jpg?w=996");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+</style>

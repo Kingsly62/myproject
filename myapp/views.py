@@ -7,11 +7,10 @@ from django.contrib.auth import authenticate, login
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 from .forms import UserLoginForm, UserRegisterForm
-
 from .models import *
 
 
-# Create your views here.
+#Create your views here.
 
 def home(request):
     return render(request, 'home.html')
@@ -20,6 +19,9 @@ def home(request):
 def project(request):
     return render(request, 'project.html')
 
+
+def welcome(request):
+    return render(request, 'welcome.html')
 
 
 def login_view(request):
@@ -32,7 +34,7 @@ def login_view(request):
         login(request, user)
         if next:
             return redirect(next)
-        return redirect('/')
+        return redirect('welcome')
 
     context = {
         'form': form,
@@ -52,7 +54,7 @@ def register_view(request):
         login(request, new_user)
         if next:
             return redirect(next)
-        return redirect('/')
+        return redirect('welcome')
 
     context = {
         'form': form,
