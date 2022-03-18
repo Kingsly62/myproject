@@ -27,11 +27,11 @@
       >
 
       <div class="main-menu">
-        <h2>Main menu</h2>
+        <h2>MENU</h2>
 
         <a href="#"><i class="fa fa-home"></i>Home</a>
         <a href="#"><i class="fa fa-users"></i>About</a>
-        <a href="#"><i class="fa fa-book"></i>Portfolio</a>
+        <a href="#"><i class="fa fa-book"></i>Profile</a>
         <a href="#"><i class="fa fa-file-o"></i>Services</a>
         <a href="#"><i class="fa fa-phone"></i>Contact</a>
       </div>
@@ -39,12 +39,20 @@
 
     <div id="content-area">
       <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
-        >&#9776; TOGGLEBAR
+        >&#9776; Menu
       </span>
 
       <div class="content-text">
         <h2>Toggle Sidebar Navigation</h2>
       </div>
+    </div>
+
+    <div id="home">
+      <h2>Welcome home</h2>
+    </div>
+    <br />
+    <div id="porfolio">
+      <h2>Welcome home</h2>
     </div>
 
     <script
@@ -61,6 +69,18 @@
 </html>
 
 <style>
+  #home {
+    height: 100vh;
+    width: auto;
+    background: blue;
+  }
+
+  #portfolio {
+    height: 100vh;
+    width: 100;
+    background: red;
+  }
+
   .sideMenu {
     height: 100vh;
     width: 0;
@@ -118,6 +138,9 @@
   .content-text {
     padding: 100px 180px;
     text-align: center;
+    background: url("https://img.freepik.com/free-photo/chic-luxury-authentic-dining-room-interior-design-with-picture-frame_53876-126787.jpg?t=st=1647612316~exp=1647612916~hmac=e928467646db307fff55c1a65aa2a3d98e8095939da7e0052beb12577a37a5da&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .content-text h2 {
