@@ -8,5 +8,11 @@ urlpatterns = [
     path('home', views.home, name='home'),
     path('login/', views.login_view, name='login'),
     path('register/', views.register_view, name='register'),
-    path('welcome', views.welcome, name='welcome')
+    path('welcome', views.welcome, name='welcome'),
+    
+    
+    path('', views.gallery, name='gallery'),
+    path('photo/<str:pk>/', views.viewPhoto, name='photo'),
+    path('add/', views.addPhoto, name='add'),
+
 ]
