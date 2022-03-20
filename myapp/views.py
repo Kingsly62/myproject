@@ -37,7 +37,7 @@ def login_view(request):
         login(request, user)
         if next:
             return redirect(next)
-        return redirect('project')
+        return redirect('gallerly')
 
     context = {
         'form': form,
