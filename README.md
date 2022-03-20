@@ -12,21 +12,21 @@ These are the behaviours/features that the application implements for use by a u
 
 #### As a user I would like:
 
-- To create where i can like , dislike and comment by creating an account.
+- To create search for a job , post a job opportunities, loook for nearby health centers.
 - Create an account.
 
 ### Link to my Github Account(project)
 
-Get started:https://github.com/Kingsly62/Instagram
+Get started:https://github.com/Kingsly62/myproject
 
 ### Heroku live link to my website
 
-[Click](https://instagram-clinton.herokuapp.com/)
+[Click]()
 
 ### Test Instances For the Application(app)
 
 - $ python3 -m venv virtual
-- $ python3 manage.py test instagram
+- $ python3 manage.py test myapp
 
 ### SetUp / Installation Requirements
 
@@ -36,6 +36,21 @@ Get started:https://github.com/Kingsly62/Instagram
 - $ pip install gunicorn
 - $ pip install whitenoise
 - $ pip install django-heroku
+- $ pip install psycopg2
+
+### Dependencies Used In The Project.
+
+- asgiref==3.5.0
+- backports.zoneinfo==0.2.1
+- dj-database-url==0.5.0
+- Django==4.0.3
+- django-heroku==0.3.1
+- gunicorn==20.1.0
+- Pillow==9.0.1
+- psycopg2==2.9.3
+- python-decouple==3.6
+- sqlparse==0.4.2
+- whitenoise==6.0.0
 
 ##### Prerequisites
 
@@ -45,9 +60,9 @@ Get started:https://github.com/Kingsly62/Instagram
 
 In your terminal:
 
-- Link to clone:https://github.com/Kingsly62/Instagram
+- Link to clone:https://github.com/Kingsly62/myproject
 - $ git clone
-- $ cd Instagram
+- $ cd myproject
 
 ### Running the Application
 
