@@ -19,3 +19,6 @@ urlpatterns = [
     path('add/', views.addPhoto, name='add'),
 
 ]
+
+
+# heroku pg:push project DATABASE_URL --app clinton-project
