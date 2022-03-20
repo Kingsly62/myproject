@@ -88,6 +88,8 @@ To run the application, in your terminal:
 - Flask (Python Micro framework)
 - Vanilla JavaScript
 - Bootstrap5
+- HTML
+- CSS
 
 #### License
 
