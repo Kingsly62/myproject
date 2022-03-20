@@ -21,7 +21,7 @@ Get started:https://github.com/Kingsly62/myproject
 
 ### Heroku live link to my website
 
-[Click](https://clinton-project.herokuapp.com/)
+[Click Here ](https://clinton-project.herokuapp.com/)
 
 ### Test Instances For the Application(app)
 
